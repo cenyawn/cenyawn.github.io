@@ -362,19 +362,25 @@
   
 
   
-  <div id="SOHUCS" sid="try" ></div> 
-<script charset="utf-8" type="text/javascript" src="//changyan.sohu.com/upload/changyan.js" ></script>
-<script type="text/javascript">
-    window.changyan.api.config({
-        appid: "cyvaPawoo",
-        conf: "965d48604b892141abe7f223443bc0fe"
-    });
-</script>
-</script>
-  
 
   
 
+  
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: "http://example.com/2020/11/25/try/",
+  owner: 'cenyawn',
+  repo: 'cenyawn.github.io',
+  oauth: {
+    client_id: '8fd1cf6a158236da4d6a',
+    client_secret: '6116c68f539f6278f2d4cb49355d10f6d6240b81',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
   
 
 
